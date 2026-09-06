@@ -4,7 +4,7 @@ public class AcessModifiers {
 
     //1) Public
     public static String str="Sayamdip Dey Chaklader";
-    //This Can Be Declared Only Outside A Class
+    //This Can Be Declared Only Outside A Method
 
     //2) Private-Accessible Only Within The Same Class
     private static double b=5000.0;
@@ -24,7 +24,7 @@ class demo {
     public static void modifiers() {
 
         AcessModifiers obj =new AcessModifiers(); // AcessModifiers Is The Constructor Here
-        //Here We Are Importing The Value With An Object
+        //Here We Are accessing a field through an object reference
         System.out.println(obj.str); //Look Here We Can Access str In Another Class
         // As It Is Public
 
